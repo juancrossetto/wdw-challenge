@@ -1,0 +1,81 @@
+@use '../../scss/' as *;
+
+.home {
+  height: 100%;
+  min-height: 87vh;
+  width: 100%;
+  position: relative;
+
+  &__search-container {
+    margin: 40px 32px 40px auto;
+    @include flex(center, flex-end);
+    @include for-phone-only {
+      margin: 20px auto;
+    }
+    &__text {
+      display: flex;
+      color: #888888;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 23px;
+      letter-spacing: 0.01em;
+      margin: 0 8px 0 0;
+      @include for-phone-only {
+        display: none !important;
+      }
+    }
+
+    &__input {
+      width: 281px;
+      height: 47px;
+      @include for-phone-only {
+        width: 100%;
+        margin-left: 22px;
+        margin-right: 22px;
+      }
+    }
+
+    &__load {
+      width: 100%;
+      position: relative;
+
+      &__text {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        letter-spacing: 0.01em;
+        color: $primary;
+        text-align: center;
+        cursor: pointer;
+        padding-bottom: 89px;
+        margin-bottom: 0px;
+        @include for-phone-only {
+          padding-bottom: 64px;
+        }
+      }
+    }
+  }
+  &__posts {
+    margin: 20px auto;
+    @include flex(center, center);
+    flex-wrap: wrap;
+
+    @media (min-width: 728px) {
+      @include flex(center, center);
+    }
+
+    &__post {
+      margin-bottom: 45px;
+      margin-left: 22px;
+      margin-right: 22px;
+
+      &__not {
+        width: 100%;
+        text-align: center;
+        margin-top: 60px;
+      }
+    }
+  }
+}

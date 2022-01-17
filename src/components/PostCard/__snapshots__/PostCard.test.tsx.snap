@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Post Card component Post Card render correctly 1`] = `
+<div
+  className="post-card"
+>
+  <div
+    className="post-card__img"
+  >
+    <img
+      alt="Post image of title test"
+      src="bgTest.png"
+    />
+  </div>
+  <div
+    className="post-card__footer"
+  >
+    <img
+      alt="Avatar image of title test"
+      className="post-card__footer__avatar"
+      src="avatar.png"
+    />
+    <div
+      className="post-card__footer__texts"
+    >
+      <p
+        className="post-card__footer__texts__title"
+      >
+        title test
+      </p>
+      <span
+        className="post-card__footer__texts__hashtag"
+      >
+        #test
+      </span>
+    </div>
+  </div>
+</div>
+`;

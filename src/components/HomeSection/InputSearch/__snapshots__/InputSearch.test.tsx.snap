@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputSearch component InputSearch render correctly 1`] = `
+<div
+  className="input-group input-search"
+>
+  <input
+    className="custom-input form-control bg-red input-search__input"
+    data-testid="input-search-test"
+    onChange={[MockFunction]}
+    style={
+      Object {
+        "borderRadius": "10px",
+      }
+    }
+    type="text"
+  />
+  <div
+    className="input-group-prepend input-search__icon"
+  >
+    <img
+      alt="Search Post"
+      className="input-search__img"
+      src={
+        Object {
+          "process": [Function],
+        }
+      }
+    />
+  </div>
+</div>
+`;

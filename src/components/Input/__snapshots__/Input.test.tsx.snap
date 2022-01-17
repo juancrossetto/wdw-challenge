@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input component Input render correctly 1`] = `
+<input
+  className="custom-input undefined"
+/>
+`;
+
+exports[`Input component Input with value and placehonder render correctly 1`] = `
+<input
+  className="custom-input undefined"
+  placeholder="some placeholder"
+  value="some value"
+/>
+`;
