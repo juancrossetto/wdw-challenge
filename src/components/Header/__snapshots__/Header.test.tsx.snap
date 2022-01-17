@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component Header render correctly 1`] = `
+<div
+  className="header"
+>
+  <div
+    className="header__inner container"
+  >
+    <div
+      className="header__logo"
+    >
+      <img
+        alt="Logo"
+        src={
+          Object {
+            "process": [Function],
+          }
+        }
+      />
+    </div>
+    <img
+      alt="Menú Mobile"
+      className="header__hamburguer"
+      src={
+        Object {
+          "process": [Function],
+        }
+      }
+    />
+    <button
+      className="custom-button header__btn btn btn-primary"
+      data-testid="btn-test"
+      disabled={false}
+      type="button"
+    >
+      LOGIN
+    </button>
+  </div>
+</div>
+`;

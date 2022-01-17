@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer component Footer render correctly 1`] = `
+<div
+  className="footer"
+>
+  <div
+    className="footer__inner container"
+  >
+    <div
+      className="footer__logo"
+    >
+      <img
+        alt=""
+        src={
+          Object {
+            "process": [Function],
+          }
+        }
+      />
+    </div>
+    <p
+      className="footer__text"
+    >
+      © All rights reserved 
+      2022
+    </p>
+  </div>
+</div>
+`;

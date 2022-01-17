@@ -1,0 +1,41 @@
+@use '../../scss/' as *;
+
+.footer {
+  height: 61px;
+  width: 100%;
+  background-color: $dark;
+  color: $white;
+  border-top: 6px solid $primary;
+  pointer-events: none;
+
+  &__inner {
+    @include flex(center, center);
+    height: 100%;
+  }
+
+  &__logo {
+    width: 145px;
+    pointer-events: visible;
+    margin-right: 14px;
+    display: flex;
+    @include for-phone-only {
+      display: none;
+    }
+    img {
+      width: 100%;
+    }
+  }
+
+  &__text {
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 26px;
+    @include for-phone-only {
+      font-weight: 600;
+      text-align: center;
+    }
+  }
+}

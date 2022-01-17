@@ -1,0 +1,2 @@
+export const ITEMS_PER_PAGE = 6;
+export const DEBOUNCE_FILTER_MILLISECONDS = 400;
